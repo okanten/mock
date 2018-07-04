@@ -2,7 +2,6 @@ import sys
 
 def main(args):
     input = list(args.lower())
-    print(input)
     result = ""
     for i, letter in enumerate(input):
         if i % 2 == 0:
